@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Conversor de base numérica </string>
+    <string name = "do_you_want_to_convert_from_which_numeric_base"> Deseja converter de qual base numérica? </string>
+    <string name = "enter_the_number_in_binary_to_convert_to_other_numeric_bases"> Insira o número em binário para converter para outras bases numéricas </string>
+    <string name = "enter_the_binary_number"> Insira o número binário: </string>
+    <string name = "decimal_value"> Valor decimal: </string>
+    <string name = "octal_value"> Valor octal: </string>
+    <string name = "hexadecimal_value"> Valor hexadecimal: </string>
+    <string name = "convert_base"> converter base </string>
+    <string name = "enter_the_decimal_number_to_convert_to_other_numeric_bases"> Insira o número decimal para converter em outras bases numéricas </string>
+    <string name = "binary_value"> Valor binário: </string>
+    <string name = "enter_the_number_in_decimal"> Digite o número em decimal: </string>
+    <string name = "enter_the_number_in_hexadecimal_to_convert_to_other_numeric_bases"> Insira o número em hexadecimal para converter para outras bases numéricas </string>
+    <string name = "enter_the_number_in_hexadecimal"> Insira o número em hexadecimal: </string>
+    <string name = "enter_the_number_in_octal_to_convert_to_other_number_bases"> Insira o número em octal para converter para outras bases numéricas </string>
+    <string name = "enter_the_number_in_octal"> Insira o número em octal: </string>
+</resources>

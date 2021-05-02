@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Number base converter</string>
+    <string name="do_you_want_to_convert_from_which_numeric_base">Do you want to convert from which numeric base?</string>
+    <string name="enter_the_number_in_binary_to_convert_to_other_numeric_bases">Enter the number in binary to convert to other numeric bases</string>
+    <string name="enter_the_binary_number">Enter the binary number:</string>
+    <string name="decimal_value">Decimal value: </string>
+    <string name="octal_value">Octal value: </string>
+    <string name="hexadecimal_value">Hexadecimal value: </string>
+    <string name="convert_base">convert base</string>
+    <string name="enter_the_decimal_number_to_convert_to_other_numeric_bases">Enter the decimal number to convert to other numeric bases</string>
+    <string name="binary_value">Binary value: </string>
+    <string name="enter_the_number_in_decimal">Enter the number in decimal:</string>
+    <string name="enter_the_number_in_hexadecimal_to_convert_to_other_numeric_bases">Enter the number in hexadecimal to convert to other numeric bases</string>
+    <string name="enter_the_number_in_hexadecimal">Enter the number in hexadecimal:</string>
+    <string name="enter_the_number_in_octal_to_convert_to_other_number_bases">Enter the number in octal to convert to other number bases</string>
+    <string name="enter_the_number_in_octal">Enter the number in octal:</string>
+</resources>

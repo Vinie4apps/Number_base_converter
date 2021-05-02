@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Преобразователь числовой базы </string>
+    <string name = "do_you_want_to_convert_from_which_numeric_base"> Вы хотите преобразовать с какой числовой базы? </string>
+    <string name = "enter_the_number_in_binary_to_convert_to_other_numeric_bases"> Введите число в двоичном формате для преобразования в другие системы счисления </string>
+    <string name = "enter_the_binary_number"> Введите двоичное число: </string>
+    <string name = "decimal_value"> Десятичное значение: </string>
+    <string name = "octal_value"> Восьмеричное значение: </string>
+    <string name = "hexadecimal_value"> Шестнадцатеричное значение: </string>
+    <string name = "convert_base"> преобразовать базу </string>
+    <string name = "enter_the_decimal_number_to_convert_to_other_numeric_bases"> Введите десятичное число для преобразования в другие системы счисления </string>
+    <string name = "binary_value"> Двоичное значение: </string>
+    <string name = "enter_the_number_in_decimal"> Введите число в десятичном формате: </string>
+    <string name = "enter_the_number_in_hexadecimal_to_convert_to_other_numeric_bases"> Введите число в шестнадцатеричном формате для преобразования в другие системы счисления </string>
+    <string name = "enter_the_number_in_hexadecimal"> Введите число в шестнадцатеричном формате: </string>
+    <string name = "enter_the_number_in_octal_to_convert_to_other_number_bases"> Введите восьмеричное число для преобразования в другие системы счисления </string>
+    <string name = "enter_the_number_in_octal"> Введите число в восьмеричном формате: </string>
+</resources>

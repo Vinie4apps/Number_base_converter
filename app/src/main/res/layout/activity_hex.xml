@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_number_in_hexadecimal_to_convert_to_other_numeric_bases"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/sf"
+        android:textSize="25sp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:background="@drawable/shape"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="@string/enter_the_number_in_hexadecimal"
+        android:digits="0123456789ABCDEF"
+        android:inputType="textCapCharacters"
+        android:fontFamily="@font/sf"
+        android:textStyle="bold"
+        android:id="@+id/EditHex"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="@string/binary_value"
+            android:fontFamily="@font/sf"
+            android:textSize="20sp"
+            android:id="@+id/BinHex"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="@string/octal_value"
+            android:fontFamily="@font/sf"
+            android:textSize="20sp"
+            android:id="@+id/OctHex"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="@string/decimal_value"
+            android:fontFamily="@font/sf"
+            android:textSize="20sp"
+            android:id="@+id/DecHex"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapefullround"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/convert_base"
+        android:fontFamily="@font/sf"
+        android:id="@+id/bntHex"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-9515612908682608/5327263935">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

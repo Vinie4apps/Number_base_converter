@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Zahlenbasis-Konverter </string>
+    <string name = "do_you_want_to_convert_from_which_numeric_base"> Möchten Sie von welcher numerischen Basis konvertieren? </string>
+    <string name = "enter_the_number_in_binary_to_convert_to_other_numeric_bases"> Geben Sie die Zahl in Binärform ein, um sie in andere numerische Basen zu konvertieren </string>
+    <string name = "enter_the_binary_number"> Geben Sie die Binärzahl ein: </string>
+    <string name = "decimal_value"> Dezimalwert: </string>
+    <string name = "octal_value"> Oktalwert: </string>
+    <string name = "hexadecimal_value"> Hexadezimalwert: </string>
+    <string name = "convert_base"> base konvertieren </string>
+    <string name = "enter_the_decimal_number_to_convert_to_other_numeric_bases"> Geben Sie die Dezimalzahl ein, die in andere numerische Basen konvertiert werden soll </string>
+    <string name = "binary_value"> Binärwert: </string>
+    <string name = "enter_the_number_in_decimal"> Geben Sie die Zahl in Dezimalzahl ein: </string>
+    <string name = "enter_the_number_in_hexadecimal_to_convert_to_other_numeric_bases"> Geben Sie die Zahl hexadezimal ein, um sie in andere numerische Basen </string> umzuwandeln
+    <string name = "enter_the_number_in_hexadecimal"> Geben Sie die Zahl hexadezimal ein: </string>
+    <string name = "enter_the_number_in_octal_to_convert_to_other_number_bases"> Geben Sie die Zahl in Oktal ein, um sie in andere Zahlenbasen umzuwandeln </string>
+    <string name = "enter_the_number_in_octal"> Geben Sie die Zahl in Oktal ein: </string>
+</resources>
