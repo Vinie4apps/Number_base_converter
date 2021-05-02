@@ -27,7 +27,7 @@
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:hint="@string/enter_the_number_in_octal"
-        android:digits="012345678"
+        android:digits="01234567"
         android:inputType="number"
         android:fontFamily="@font/sf"
         android:textStyle="bold"

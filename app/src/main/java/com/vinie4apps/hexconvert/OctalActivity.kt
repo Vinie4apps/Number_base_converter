@@ -40,24 +40,24 @@ class OctalActivity : AppCompatActivity() {
 
         bnt.setOnClickListener {
 
-            hexToBin(strOctal.toString())
-            hexToOctal(strOctal.toString())
-            hexToDec(strOctal.toString())
+            octalToBin(strOctal.toString())
+            octalTodec(strOctal.toString())
+            octalToHex(strOctal.toString())
 
         }
     }
-    private fun hexToBin(Bin: String) {
+    private fun octalToBin(Bin: String) {
         val bin: String = BigInteger(Bin, 8).toString(2)
         (this.getString(R.string.binary_value) + " " +bin).also { txtbin.text = it }
     }
 
-    private fun hexToOctal(Bin: String) {
+    private fun octalTodec(Bin: String) {
         val dec: String = BigInteger(Bin, 8).toString(10)
-        (this.getString(R.string.octal_value) + " " +dec).also { txtdec.text = it }
+        (this.getString(R.string.decimal_value) + " " +dec).also { txtdec.text = it }
     }
 
-    private fun hexToDec(Bin: String) {
+    private fun octalToHex(Bin: String) {
         val hex: String = BigInteger(Bin, 8).toString(16)
-        (this.getString(R.string.decimal_value) + " " +hex).also { txtdec.text = it }
+        (this.getString(R.string.hexadecimal_value) + " " +hex).also { txthex.text = it }
     }
 }
