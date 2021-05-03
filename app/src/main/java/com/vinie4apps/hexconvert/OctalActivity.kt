@@ -3,10 +3,12 @@ package com.vinie4apps.hexconvert
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
@@ -18,6 +20,7 @@ private lateinit var txtbin: TextView
 private lateinit var txtdec: TextView
 @SuppressLint("StaticFieldLeak")
 private lateinit var txthex: TextView
+
 private lateinit var mAdView : AdView
 
 class OctalActivity : AppCompatActivity() {
@@ -36,16 +39,22 @@ class OctalActivity : AppCompatActivity() {
         txthex = findViewById<View>(R.id.HexOctal) as TextView
         val bnt = findViewById<Button>(R.id.bntOctal)
 
-        val strOctal = edittext.text
+            bnt.setOnClickListener {
 
-        bnt.setOnClickListener {
+                val strOctal = edittext.text
 
-            octalToBin(strOctal.toString())
-            octalTodec(strOctal.toString())
-            octalToHex(strOctal.toString())
+                if(strOctal.isEmpty()){
+                    Toast.makeText(this@OctalActivity, "¯\\_(ツ)_/¯", Toast.LENGTH_SHORT).show()
+                }
+                else {
 
+                    octalToBin(strOctal.toString())
+                    octalTodec(strOctal.toString())
+                    octalToHex(strOctal.toString())
+                }
+            }
         }
-    }
+
     private fun octalToBin(Bin: String) {
         val bin: String = BigInteger(Bin, 8).toString(2)
         (this.getString(R.string.binary_value) + " " +bin).also { txtbin.text = it }

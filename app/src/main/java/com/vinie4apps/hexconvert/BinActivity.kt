@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
@@ -37,14 +38,20 @@ class BinActivity : AppCompatActivity() {
         txthex = findViewById<View>(R.id.HexBin) as TextView
         val bnt = findViewById<Button>(R.id.bntBin)
 
-        val strBin = edittext.text
 
         bnt.setOnClickListener {
 
-            binToDec(strBin.toString())
-            binToOctal(strBin.toString())
-            binToHex(strBin.toString())
+            val strBin = edittext.text
 
+            if(strBin.isEmpty()){
+                Toast.makeText(this@BinActivity, "¯\\_(ツ)_/¯", Toast.LENGTH_SHORT).show()
+            }
+            else {
+
+                binToDec(strBin.toString())
+                binToOctal(strBin.toString())
+                binToHex(strBin.toString())
+            }
         }
     }
     private fun binToDec(Bin: String) {

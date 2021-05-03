@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
@@ -36,14 +37,20 @@ class DecActivity : AppCompatActivity() {
         txthex = findViewById<View>(R.id.HexDec) as TextView
         val bnt = findViewById<Button>(R.id.bntDec)
 
-        val strDec = edittext.text
 
         bnt.setOnClickListener {
 
-            decToBin(strDec.toString())
-            decToOctal(strDec.toString())
-            decToHex(strDec.toString())
+            val strDec = edittext.text
 
+            if(strDec.isEmpty()){
+                Toast.makeText(this@DecActivity, "¯\\_(ツ)_/¯", Toast.LENGTH_SHORT).show()
+            }
+            else {
+
+                decToBin(strDec.toString())
+                decToOctal(strDec.toString())
+                decToHex(strDec.toString())
+            }
         }
     }
     private fun decToBin(Bin: String) {
